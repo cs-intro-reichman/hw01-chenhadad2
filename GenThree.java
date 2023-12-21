@@ -19,6 +19,6 @@ public static void main(String args[]) {
 		int t = (int)(Math.min(x,y));
 		int l = (int)(Math.min(x,z));
 		int f =  (int)(Math.min(l,t));
-        System.out.println(f);		
+        System.out.println("the minimal generates number was" +f);		
     }
 }
