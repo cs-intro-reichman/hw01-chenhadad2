@@ -5,13 +5,13 @@ public static void main(String args[]) {
 	int a = Integer.parseInt(args[0]);
 	int b = Integer.parseInt(args[1]);
     
-	int x = (int)((Math.random() * (b - a + 1) + a));
+	int x = (int)((Math.random() * (b - a) + a));
         System.out.println(x);
 
-	int y = (int)((Math.random() * (b - a + 1) + a));
+	int y = (int)((Math.random() * (b - a) + a));
         System.out.println(y);
 		
-	int z = (int)((Math.random() * (b - a + 1) + a));
+	int z = (int)((Math.random() * (b - a) + a));
         System.out.println(z);
 		
 	int t = (int)(Math.min(x,y));
